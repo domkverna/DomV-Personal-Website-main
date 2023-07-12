@@ -3,33 +3,36 @@
 <head>
   <title>Welcome Page</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script> 
 </head>
+
 <body>
-  
-  <h1>Dominic Kristopher Verna</h1>
-  
-  <p>
-    Hello! I am a student at the University of Michigan - Flint.
-    <br>
-    I am a Computer Science Major in my senior year.
-    <br>
-    Here are some links to more about me.
+  <header class="header">
+    <h1> &nbsp;Dominic Kristopher Verna</h1>
+    <div class="button-container">
+      <a href="files/Dominic K Verna Resume 06-08-23.pdf" download class="button">My&nbsp;Resume</a>
+    </div>
+    <div class="button-container">
+      <a href="https://github.com/domkverna" class="button" target="_blank">My&nbsp;Github</a>
+    </div>
+
+  </header>
+
+  <p class="about-me" style="font-size: 50px;">
+
   </p>
-
-  <br>
-
-  <div class="button-container">
-    <a href="https://github.com/domkverna" class="button" target="_blank">My Github</a>
-
-    <a href="https://www.linkedin.com/in/domkverna/" class="button" target="_blank">My LinkedIn</a>
-
-    <a href="https://drive.google.com/u/1/uc?id=1355cnN960bxhlIkpS7JT8BEgzkamWMZF&export=download" 
-    download class="button" target="_blank">My Resume</a>
-    <!--To get the download link, open the resume in a new window and press download, quickly go to the searchbar and get the link.-->
+  <div class="center-container">
+    <img src="files/upscaled.jpg" alt="Dominic Verna on Bass" style="width: auto; height: 475px; clip-path: circle(); margin: 10px;">
+  </div>
+  <p style="font-size: 80px; margin: 0;">
+    Dominic Verna
+  </p>
+  <p style="font-size: 40px; margin: 0; font-style: italic;">
+    Senior at UM-Flint, Computer Scientist, Musician
+  </p>
+  <div style="text-align: center; margin-top: 40px;">
+    <button class="button-in-body" onclick="scrollToBottom()" target="_blank">More&nbsp;About&nbsp;Me</a>
   </div>
 
-  <iframe src="https://drive.google.com/file/d/1355cnN960bxhlIkpS7JT8BEgzkamWMZF/preview" width="640" height="480" allow="autoplay"></iframe>
-  <!--You have to pop out the file to embed the link. Stupid, but it works. Preview it in another window-->
-  
 </body>
 </html>
